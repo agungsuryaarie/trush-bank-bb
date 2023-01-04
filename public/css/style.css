@@ -1,0 +1,79 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 450px;
+    max-width: 100%;
+}
+
+.message .alert {
+    border-radius: 0;
+}
+
+.inner-message {
+    margin: 0 auto;
+}
+
+.border-top td {
+    border-top: 2px solid rgb(77, 76, 76);
+}
+
+.non-bordered {
+    border: 0;
+}
+
+.left-right {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .left-right {
+        text-align: left;
+    }
+}
+
+.info-tabungan h4, .info-tabungan h2, .info-tabungan p {
+    color: white;
+    font-weight: normal;
+}
+
+.leaderboard ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.leaderboard small {
+    float: right;
+}
+
+.leaderboard-header {
+    background-color: blue;
+}
+
+.leaderboard-header h3 {
+    color: white;
+}
+
+.leaderboard-body {
+    border: 1px solid darkgrey;
+}
+
+.leaderboard-list li {
+    transition: 0.2s;
+    background-color: white;
+    overflow: hidden;
+}
+
+.leaderboard-list li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table th:hover {
+    cursor: pointer;
+}
